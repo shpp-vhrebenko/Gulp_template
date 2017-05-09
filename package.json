@@ -1,0 +1,62 @@
+{
+  "name": "DvaCom",
+  "version": "0.0.1",
+  "description": "DvaCom",
+  "authors": [
+    "vhrebenko"
+  ],
+  "license": "MIT",
+  "homepage": "http://dvacom.ua/",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vhrebenkp/dvacom.git"
+  },
+  "scripts": {
+    "init": "npm install"
+  },
+  "private": true,
+  "engines": {
+    "node": ">=4"
+  },
+  "devDependencies": {
+    "babel-preset-es2015": "^6.24.1",
+    "browser-sync": "^2.12.1",
+    "del": "^2.2.0",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.0",
+    "gulp-babel": "^6.1.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-connect-php": "0.0.7",
+    "gulp-if": "^2.0.2",
+    "gulp-imagemin": "^3.0.1",
+    "gulp-jscs": "^3.0.2",
+    "gulp-jshint": "^2.0.0",
+    "gulp-less": "^3.0.5",
+    "gulp-load-plugins": "^1.5.0",
+    "gulp-plumber": "^1.1.0",
+    "gulp-print": "^2.0.1",
+    "gulp-sourcemaps": "^2.2.0",
+    "gulp-uglify": "^2.1.1",
+    "gulp-useref": "^3.1.2",
+    "gulp-util": "^3.0.7",
+    "gulp-version-append": "^0.2.0",
+    "gulp-watch": "^4.3.11",
+    "jshint": "^2.9.1",
+    "jshint-stylish": "^2.1.0",
+    "run-sequence": "^1.2.2",
+    "yargs": "^4.6.0"
+  },
+  "eslintConfig": {
+    "env": {
+      "es6": true,
+      "node": true,
+      "browser": true
+    },
+    "rules": {
+      "quotes": [
+        2,
+        "single"
+      ]
+    }
+  }
+}
